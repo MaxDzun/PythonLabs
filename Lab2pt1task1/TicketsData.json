@@ -1,0 +1,32 @@
+{
+    "TicketsData": [
+        {
+            "type": "EPAM-Recruiting",
+            "place": "KPI",
+            "date": "29.12.2022",
+            "cost": 79,
+            "amount": 0
+        },
+        {
+            "type": "Startup meeting",
+            "place": "KNU",
+            "date": "12.01.2023",
+            "cost": 99,
+            "amount": 58
+        },
+        {
+            "type": "Economics in IT",
+            "place": "KNEU",
+            "date": "20.11.2022",
+            "cost": 89,
+            "amount": 6
+        },
+        {
+            "type": "Hackaton",
+            "place": "KMA",
+            "date": "25.11.2022",
+            "cost": 99,
+            "amount": 9
+        }
+    ]
+}
