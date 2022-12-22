@@ -1,0 +1,11 @@
+[
+  {"type":  "teacher", "name": "Franklin Roosevelt"},
+  {"type":  "offsite", "name":  "Americas golden way", "teacher":  "Franklin Roosevelt", "course program":  ["Independence", "Power", "Economics"], "address":  "Skype"},
+  {"type":  "local", "name":  "History of WW2", "teacher":  "Franklin Roosevelt", "course program":  ["WW2", "Allies"], "auditory":  "KPI building 5 Room 300"},
+  {"type":  "teacher", "name": "Abraham Lincoln"},
+  {"type":  "offsite", "name":  "Laws", "teacher":  "Abraham Lincoln", "course program":  ["Law", "Crimes"], "address": "Zoom"},
+  {"type":  "teacher", "name": "George Washington"},
+  {"type":  "local", "name":  "Independence way", "teacher":  "George Washington", "course program":  ["Civil war", "US Establishing"], "auditory":  "KPI building 1"},
+  {"type":  "teacher", "name": "Theodore Roosevelt"},
+  {"type":  "offsite", "name":  "Be progressive!", "teacher":  "Theodore Roosevelt", "course program":  ["Government and Science", "Future"], "address":  "Google meet"}
+  ]
