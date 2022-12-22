@@ -18,7 +18,7 @@ class Calendar:
     @day.setter
     def day(self, day):
         if not isinstance(day, int) and day >= 1:
-            raise TypeError("Wrong value of day")
+            raise TypeError("Invalid day")
         self.__day = day
 
     @property
@@ -28,7 +28,7 @@ class Calendar:
     @month.setter
     def month(self, month):
         if not isinstance(month, int) and month >= 1:
-            raise TypeError("Invalid value of month")
+            raise TypeError("Invalid month")
         self.__month = month
 
     @property
@@ -38,7 +38,7 @@ class Calendar:
     @year.setter
     def year(self, year):
         if not isinstance(year, int) and year >= 1:
-            raise TypeError("Wrong value of year")
+            raise TypeError("Invalid year")
         self.__year = year
 
     def date(self):
@@ -111,22 +111,23 @@ class Calendar:
         return f'{self.__day}.{self.__month}.{self.__year}'
 
 
-date1 = Calendar(14, 9, 1814)
-date2 = Calendar(21, 12, 2022)
-date3 = Calendar(1, 1, 1001)
+d1 = Calendar(14, 9, 1814)
+d2 = Calendar(21, 12, 2022)
+d3 = Calendar(1, 1, 1001)
 
-print("first date", date1)
-print("second date", date2)
-print("third date", date3)
+print("first date", d1)
+print("second date", d2)
+print("third date", d3)
 
-date1 += [16, 0, 16]
-print(date1)
-date2 -= [9, 2, 20]
-print(date2)
-# date3 -= [-2, 0, 0]
-date3 = date3.date()
-print(date3)
+d1 += [16, 0, 16]
+print(d1)
+d2 -= [9, 2, 20]
+print(d2)
+# d3 -= [-2, 0, 0]
+d3 = d3.date()
+print(d3)
 
-print(date2 != date1)
-print(date2 >= date1)
+print(d2 != d1)
+print(d2 >= d1)
+print(d3 == d2)
 
